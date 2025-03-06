@@ -1,0 +1,66 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/modeltech64_2020.4/examples
+T_opt
+!s110 1741228743
+V=]i`_GBnVmK1QP]koQm>:2
+04 16 4 work sync_fifo_ptr_tb fast 0
+=1-98bd80eda0b2-67c90ac6-38d-699c
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vsync_fifo_ptr
+Z1 !s110 1741228729
+!i10b 1
+!s100 cRmhj?n:jjLB6;DmF7eBi1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Il8dDKdkjNUTlJeI18_F]C1
+Z3 dC:/code_all/markdown_prj/MyBlogCode/sync_fifo/sim_ptr
+w1741225722
+8C:/code_all/markdown_prj/MyBlogCode/sync_fifo/sync_fifo_ptr.v
+FC:/code_all/markdown_prj/MyBlogCode/sync_fifo/sync_fifo_ptr.v
+!i122 4
+L0 2 58
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1741228729.000000
+!s107 C:/code_all/markdown_prj/MyBlogCode/sync_fifo/sync_fifo_ptr.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/code_all/markdown_prj/MyBlogCode/sync_fifo/sync_fifo_ptr.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vsync_fifo_ptr_tb
+R1
+!i10b 1
+!s100 ZlhAKE:IThB8T4jRn1aGB0
+R2
+I_?:XXa_B1OhRZ09Sf0l7J0
+R3
+w1741228723
+8C:/code_all/markdown_prj/MyBlogCode/sync_fifo/sync_fifo_ptr_tb.v
+FC:/code_all/markdown_prj/MyBlogCode/sync_fifo/sync_fifo_ptr_tb.v
+!i122 5
+L0 2 177
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/code_all/markdown_prj/MyBlogCode/sync_fifo/sync_fifo_ptr_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/code_all/markdown_prj/MyBlogCode/sync_fifo/sync_fifo_ptr_tb.v|
+!i113 0
+R7
+R0

@@ -1,0 +1,383 @@
+$date
+	Thu Mar 06 10:32:25 2025
+$end
+$version
+	ModelSim Version 2020.4
+$end
+$timescale
+	1ps
+$end
+
+$scope module sync_fifo_ptr_tb $end
+$var parameter 32 ! DATA_WIDTH $end
+$var parameter 32 " DATA_DEPTH $end
+$var reg 1 # clk $end
+$var reg 1 $ rst_n $end
+$var reg 8 % data_in [7:0] $end
+$var reg 1 & wr_en $end
+$var reg 1 ' rd_en $end
+$var wire 1 ( data_out [7] $end
+$var wire 1 ) data_out [6] $end
+$var wire 1 * data_out [5] $end
+$var wire 1 + data_out [4] $end
+$var wire 1 , data_out [3] $end
+$var wire 1 - data_out [2] $end
+$var wire 1 . data_out [1] $end
+$var wire 1 / data_out [0] $end
+$var wire 1 0 empty $end
+$var wire 1 1 full $end
+
+$scope task check_reset_state $end
+$upscope $end
+
+$scope task test_write_full $end
+$var integer 32 2 i $end
+$upscope $end
+
+$scope task test_read_empty $end
+$var integer 32 3 i $end
+$upscope $end
+
+$scope task test_simultaneous_rw $end
+$var integer 32 4 i $end
+$upscope $end
+
+$scope task test_edge_cases $end
+$upscope $end
+
+$scope task write_single $end
+$var reg 8 5 data [7:0] $end
+$upscope $end
+
+$scope task read_single $end
+$upscope $end
+
+$scope module u_sync_fifo $end
+$var parameter 32 6 DATA_WIDTH $end
+$var parameter 32 7 DATA_DEPTH $end
+$var wire 1 8 clk $end
+$var wire 1 9 rst_n $end
+$var wire 1 : data_in [7] $end
+$var wire 1 ; data_in [6] $end
+$var wire 1 < data_in [5] $end
+$var wire 1 = data_in [4] $end
+$var wire 1 > data_in [3] $end
+$var wire 1 ? data_in [2] $end
+$var wire 1 @ data_in [1] $end
+$var wire 1 A data_in [0] $end
+$var wire 1 B rd_en $end
+$var wire 1 C wr_en $end
+$var reg 8 D data_out [7:0] $end
+$var wire 1 0 empty $end
+$var wire 1 1 full $end
+$var reg 5 E wr_ptr [4:0] $end
+$var reg 5 F rd_ptr [4:0] $end
+$var wire 1 G wr_ptr_true [3] $end
+$var wire 1 H wr_ptr_true [2] $end
+$var wire 1 I wr_ptr_true [1] $end
+$var wire 1 J wr_ptr_true [0] $end
+$var wire 1 K rd_ptr_true [3] $end
+$var wire 1 L rd_ptr_true [2] $end
+$var wire 1 M rd_ptr_true [1] $end
+$var wire 1 N rd_ptr_true [0] $end
+$var wire 1 O wr_ptr_msb $end
+$var wire 1 P rd_ptr_msb $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0#
+0$
+b0 %
+0&
+0'
+bx D
+b0 E
+b0 F
+bx 5
+b1000 !
+b10000 "
+b1000 6
+b10000 7
+bx 2
+bx 3
+bx 4
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+x(
+10
+01
+0J
+0I
+0H
+0G
+0N
+0M
+0L
+0K
+0O
+0P
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+$end
+#5000
+1#
+18
+#10000
+1$
+0#
+19
+08
+#15000
+1#
+18
+#20000
+b0 2
+0#
+08
+1&
+b1 2
+1C
+#25000
+1#
+18
+b1 E
+00
+1J
+#30000
+0#
+08
+b1 %
+b10 2
+1A
+#35000
+1#
+18
+b10 E
+0J
+1I
+#40000
+0#
+08
+b10 %
+b11 2
+0A
+1@
+#45000
+1#
+18
+b11 E
+1J
+#50000
+0#
+08
+b11 %
+b100 2
+1A
+#55000
+1#
+18
+b100 E
+0J
+0I
+1H
+#60000
+0#
+08
+b100 %
+b101 2
+0A
+0@
+1?
+#65000
+1#
+18
+b101 E
+1J
+#70000
+0#
+08
+b101 %
+b110 2
+1A
+#75000
+1#
+18
+b110 E
+0J
+1I
+#80000
+0#
+08
+b110 %
+b111 2
+0A
+1@
+#85000
+1#
+18
+b111 E
+1J
+#90000
+0#
+08
+b111 %
+b1000 2
+1A
+#95000
+1#
+18
+b1000 E
+0J
+0I
+0H
+1G
+#100000
+0#
+08
+b1000 %
+b1001 2
+0A
+0@
+0?
+1>
+#105000
+1#
+18
+b1001 E
+1J
+#110000
+0#
+08
+b1001 %
+b1010 2
+1A
+#115000
+1#
+18
+b1010 E
+0J
+1I
+#120000
+0#
+08
+b1010 %
+b1011 2
+0A
+1@
+#125000
+1#
+18
+b1011 E
+1J
+#130000
+0#
+08
+b1011 %
+b1100 2
+1A
+#135000
+1#
+18
+b1100 E
+0J
+0I
+1H
+#140000
+0#
+08
+b1100 %
+b1101 2
+0A
+0@
+1?
+#145000
+1#
+18
+b1101 E
+1J
+#150000
+0#
+08
+b1101 %
+b1110 2
+1A
+#155000
+1#
+18
+b1110 E
+0J
+1I
+#160000
+0#
+08
+b1110 %
+b1111 2
+0A
+1@
+#165000
+1#
+18
+b1111 E
+1J
+#170000
+0#
+08
+b1111 %
+b10000 2
+1A
+#175000
+1#
+18
+b10000 E
+0J
+0I
+0H
+0G
+1O
+11
+#180000
+0#
+08
+0&
+b10000 %
+b10001 2
+0C
+0A
+0@
+0?
+0>
+1=
+#185000
+1#
+18
+#190000
+0#
+08
+b10001 %
+b10010 2
+b0 3
+1A
+#195000
+1#
+18
+#200000
+0#
+08
+1'

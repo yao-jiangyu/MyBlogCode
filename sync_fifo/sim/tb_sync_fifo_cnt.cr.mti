@@ -1,0 +1,15 @@
+C:/code_all/markdown_prj/MyBlogCode/sync_fifo/sync_fifo_cnt.v {1 {vlog -work work -vopt -stats=none C:/code_all/markdown_prj/MyBlogCode/sync_fifo/sync_fifo_cnt.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module sync_fifo_cnt
+
+Top level modules:
+	sync_fifo_cnt
+
+} {} {}} C:/code_all/markdown_prj/MyBlogCode/sync_fifo/tb_sync_fifo_cnt.v {1 {vlog -work work -vopt -stats=none C:/code_all/markdown_prj/MyBlogCode/sync_fifo/tb_sync_fifo_cnt.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tb_sync_fifo_cnt
+
+Top level modules:
+	tb_sync_fifo_cnt
+
+} {} {}}
