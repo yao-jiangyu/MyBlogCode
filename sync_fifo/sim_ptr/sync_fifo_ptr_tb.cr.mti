@@ -1,4 +1,11 @@
-C:/code_all/markdown_prj/MyBlogCode/sync_fifo/sync_fifo_ptr.v {1 {vlog -work work -vopt -stats=none C:/code_all/markdown_prj/MyBlogCode/sync_fifo/sync_fifo_ptr.v
+C:/code_all/markdown_prj/MyBlogCode/sync_fifo/sync_fifo_ptr_tb.v {1 {vlog -work work -vopt -stats=none C:/code_all/markdown_prj/MyBlogCode/sync_fifo/sync_fifo_ptr_tb.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module sync_fifo_ptr_tb
+
+Top level modules:
+	sync_fifo_ptr_tb
+
+} {} {}} C:/code_all/markdown_prj/MyBlogCode/sync_fifo/sync_fifo_ptr.v {1 {vlog -work work -vopt -stats=none C:/code_all/markdown_prj/MyBlogCode/sync_fifo/sync_fifo_ptr.v
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 -- Compiling module sync_fifo_ptr
 

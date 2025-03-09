@@ -3,3 +3,5 @@
 在这个仓库将存放[我的博客](https://yao-jiangyu.github.io/)中涉及到的一些代码。
 
 - sync_fifo: [同步FIFO的详解](https://yao-jiangyu.github.io/sync_fifo/)
+
+- async_fifo: [异步FIFO的详解](https://yao-jiangyu.github.io/async_fifo/)
